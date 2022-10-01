@@ -88,6 +88,7 @@ class _CounterDownApp extends State<CounterDownApp> {
               ElevatedButton(
                 onPressed: () {
                   starTimer();
+                  // to return the app run after finish when clicked again
                 setState(() {
                     if (numberOfSeconds == 0) {
                     numberOfSeconds = 4;
